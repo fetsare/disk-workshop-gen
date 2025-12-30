@@ -4,6 +4,10 @@ A tool for automatically creating tutoring lists for DISK Workshop sessions on D
 
 The program automatically generates tutoring lists for all Thursdays within a given date range by sending POST requests to DSV's tutoring system. This simplifies the process of planning regular workshop sessions.
 
+## Author
+
+- [Fredrik Etsare](https://github.com/fetsare)
+
 ## Installation
 
 ### 1. Clone the project
@@ -101,10 +105,6 @@ python create_lists.py -j "YOUR_JSESSIONID_HERE" -s "2026-01-01" -e "2026-06-30"
 
 - Add functionality to add DISK worksop administrator to every new list, curretly this needs to be done manually.
 - Create executables with PyInstaller and github actions workflow for new releases
-
-## Author
-
-- [Fredrik Etsare](https://github.com/fetsare)
 
 ## Disclamer
 

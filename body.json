@@ -1,0 +1,11 @@
+{
+  "listtypeid": "1",
+  "starttime": "10:00",
+  "endtime": "16:00",
+  "notesv": "Ange ditt rumsnummer eller Zoom-ID (inte hela Zoom-länken) samt lösenord om ditt pass kräver ett.",
+  "noteen": "Enter you room number or Zoom id (not the whole zoom link) and password if your session needs one",
+  "editbyall": "on",
+  "allowcomment": "on",
+  "courses": "DISK Workshop",
+  "submit": "Create"
+}

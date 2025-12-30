@@ -8,6 +8,7 @@ URL = "https://handledning.dsv.su.se/servlet/teacher/CreateListServlet"
 
 
 def get_thursdays(start_date, end_date):
+    # https://stackoverflow.com/questions/67883300/print-all-thursdays-between-date-range 🙏
     days_to_thursday = (3 - start_date.weekday()) % 7
     week_diff = ((end_date - start_date).days - days_to_thursday) // 7
     return [
@@ -79,8 +80,8 @@ def main():
         if args.dry_run:
             print(f"[DRY RUN] Would send request for date: {date}")
             if args.verbose:
-                print(f"  URL: {URL}")
-                print(f"  Payload: {json.dumps(payload, indent=2)}")
+                print(f"URL: {URL}")
+                print(f"Payload: {json.dumps(payload, indent=2)}")
             continue
 
         if args.verbose:
